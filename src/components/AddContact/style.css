@@ -1,0 +1,93 @@
+h1 {
+  text-align: center;
+}
+
+  li {
+    display: flex;
+    justify-content: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    color: wheat;
+  }
+  
+  .container {
+    max-width: 958px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: Arial;
+  }
+  
+ 
+  
+
+  
+
+ .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+ .container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+ 
+
+ .input {
+    height: 35px;
+    width: 300px;
+    margin: 5px 0;
+    text-align: center;
+    border: 0.5px solid rgba(137, 43, 226, 0.516);
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(0, 255, 255, 0.478);
+    font-family: 'Amatic SC', cursive;
+}
+ .input:hover{
+  background-color: rgba(16, 15, 15, 0.553);
+  transition: 1s;
+
+  
+}
+ .input::-webkit-input-placeholder { /* WebKit browsers */
+    color:wheat;
+ }
+
+
+  button{
+    height: 35px;
+    width: 200px;;
+    border-radius: 20px;
+    background-color: rgba(137, 43, 226, 0.886);
+    border: 0.5px solid rgba(0, 0, 0, 0.374);
+    color: wheat;
+    font-family: "Courier New", Courier, monospace;
+ }
+  button:hover{
+    background-color: rgba(54, 121, 100, 0.774);
+    transition: 1.5s;
+ }
+
+ /* таблица start*/
+
+  li:hover  {
+   
+    background: #2e49ad;
+    
+    border-radius: 50px;
+    transition: 1s;
+  }
+ /* таблица end*/
+
+/* .container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
